@@ -8,7 +8,7 @@ public class CodingBat {
 	    int i = 0;
 	    
 	    while(i < str.length()) {
-	        if( str.charAt(i) == 'z' && str.charAt(i + 2) == 'p' && i < str.length() - 2) {
+	        if( i < str.length() - 2 && str.charAt(i) == 'z' && str.charAt(i + 2) == 'p' ) {
 	            arr[arrIndex] = 'z';
 	            arrIndex++;
 	            arr[arrIndex] = 'p';
